@@ -58,7 +58,7 @@ namespace estacionamiento
                     
                 }
                 
-            }while(op!=0);
+            }while(op==null);
             System.Console.ReadKey();
 
             System.Console.Write("Hora de entrada (HH:MM) ");
